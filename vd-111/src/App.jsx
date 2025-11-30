@@ -39,7 +39,7 @@ function App() {
               return (
                 <div className="card" style={{ width: "18rem" }} key={item.id}>
                   <div className="card-body">
-                    <span class="badge rounded-pill text-bg-dark">
+                    <span className="badge rounded-pill text-bg-dark">
                       {index + 1}
                     </span>
                     <h6 className="card-title">{item.title}</h6>
